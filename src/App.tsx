@@ -21,7 +21,7 @@ function App() {
   ];
 
   const carouselImages = [
-    'images/fh1.jpg',
+    './images/fh1.jpg',
     'images/fh2.jpg',
     'images/fh3.jpg',
     'images/fh4.jpg',
