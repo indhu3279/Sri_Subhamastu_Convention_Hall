@@ -54,7 +54,7 @@ function App() {
           <div className="flex items-center space-x-2">
             {/* Logo placeholder - replace src with your logo */}
             <img
-              src="images\fhlogo.jpg"
+              src="/images/fhlogo.jpg"
               alt="Elegant Events Venue"
               className="h-12 w-auto"
             />
