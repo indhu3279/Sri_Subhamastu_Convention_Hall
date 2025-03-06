@@ -21,9 +21,9 @@ function App() {
   ];
 
   const carouselImages = [
-    './images/fh1.jpg',
-    'images/fh2.jpg',
-    'images/fh3.jpg',
+    '../images/fh1.jpg',
+    './images/fh2.jpg',
+    '/images/fh3.jpg',
     'images/fh4.jpg',
     'images/fh5.jpg',
     'images/fh6.jpg',
@@ -54,7 +54,7 @@ function App() {
           <div className="flex items-center space-x-2">
             {/* Logo placeholder - replace src with your logo */}
             <img
-              src="/images/fhlogo.jpg"
+              src="../images/fhlogo.jpg"
               alt="Elegant Events Venue"
               className="h-12 w-auto"
             />
