@@ -32,9 +32,9 @@ function App() {
   ];
 
   const galleryImages = [
-    'images/fhserv2.JPG',
-    'images/fhserv5.JPG',
-    'images/fhserv3.JPG',
+    '../images/fhserv2.jpg',
+    './images/fhserv5.jpg',
+    '/images/fhserv3.jpg',
     'images/fhserv4.JPG',
     'images/fhserv1.JPG',
     'images/fhserv6.JPG',
