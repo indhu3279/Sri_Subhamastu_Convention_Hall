@@ -21,29 +21,29 @@ function App() {
   ];
 
   const carouselImages = [
-    'images/fh1.jpg',
-    'images/fh2.jpg',
-    'images/fh3.jpg',
-    'images/fh4.jpg',
-    'images/fh5.jpg',
-    'images/fh6.jpg',
-    'images/fh7.jpg',
-    'images/fh8.jpg',
+    '/images/fh1.jpg',
+    '/images/fh2.jpg',
+    '/images/fh3.jpg',
+    '/images/fh4.jpg',
+    '/images/fh5.jpg',
+    '/images/fh6.jpg',
+    '/images/fh7.jpg',
+    '/images/fh8.jpg',
   ];
 
   const galleryImages = [
-    'images/fhserv2.JPG',
-    'images/fhserv5.JPG',
-    'images/fhserv3.JPG',
-    'images/fhserv4.JPG',
-    'images/fhserv1.JPG',
-    'images/fhserv6.JPG',
-    'images/fhserv7.JPG',
-    'images/fhserv8.JPG',
-    'images/fhserv9.JPG',
-    'images/fhserv10.JPG',
-    'images/fhserv11.JPG',
-    'images/fhserv12.JPG',
+    '/images/fhserv2.JPG',
+    '/images/fhserv5.JPG',
+    '/images/fhserv3.JPG',
+    '/images/fhserv4.JPG',
+    '/images/fhserv1.JPG',
+    '/images/fhserv6.JPG',
+    '/images/fhserv7.JPG',
+    '/images/fhserv8.JPG',
+    '/images/fhserv9.JPG',
+    '/images/fhserv10.JPG',
+    '/images/fhserv11.JPG',
+    '/images/fhserv12.JPG',
   ];
 
   return (
@@ -54,7 +54,7 @@ function App() {
           <div className="flex items-center space-x-2">
             {/* Logo placeholder - replace src with your logo */}
             <img
-              src="images\fhlogo.jpg"
+              src="/images\fhlogo.jpg"
               alt="Elegant Events Venue"
               className="h-12 w-auto"
             />
@@ -242,7 +242,7 @@ function App() {
             </form> */}
             <div className="flex flex-col items-center p-4 bg-white shadow-lg rounded-md space-y-4">
             <img
-              src="images\fhlogo.jpg"
+              src="/images\fhlogo.jpg"
               alt="Logo"
               className="w-32 h-32 object-contain"
             />
