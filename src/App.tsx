@@ -33,16 +33,16 @@ function App() {
 
   const galleryImages = [
     '/images/fhserv2.JPG',
-    '/images/fhserv5.JPG',
+    '/images/fhserv5.jpg',
     '/images/fhserv3.JPG',
     '/images/fhserv4.JPG',
     '/images/fhserv1.JPG',
     '/images/fhserv6.JPG',
-    '/images/fhserv7.JPG',
-    '/images/fhserv8.JPG',
-    '/images/fhserv9.JPG',
-    '/images/fhserv10.JPG',
-    '/images/fhserv11.JPG',
+    '/images/fhserv7.jpg',
+    '/images/fhserv8.jpg',
+    '/images/fhserv9.jpg',
+    '/images/fhserv10.jpg',
+    '/images/fhserv11.jpg',
     '/images/fhserv12.JPG',
   ];
 
