@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add an elegant font */
+
+body {
+  font-family: "Alkatra", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  /* font-weight: 700;
+  font-style: normal; */
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.image-zoom {
+  transition: transform 0.5s ease;
+}
+
+.image-zoom:hover {
+  transform: scale(1.05);
+}
+
+.hover-overlay {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background: linear-gradient(to bottom, rgba(212, 175, 55, 0.2), rgba(212, 175, 55, 0.4));
+}
+
+.image-container:hover .hover-overlay {
+  opacity: 1;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #D4AF37 !important;
+}
+
+.swiper-pagination-bullet {
+  background: #D4AF37 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #D4AF37 !important;
+}
